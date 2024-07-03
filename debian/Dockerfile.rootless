@@ -1,4 +1,4 @@
-FROM debian:bookworm-slim
+FROM debian:12.6-slim
 
 ARG API_REPOSITORY="https://github.com/passbolt/passbolt_api"
 ARG IMAGE_DESCRIPTION="Passbolt CE Backend, a JSON API written with CakePHP"
